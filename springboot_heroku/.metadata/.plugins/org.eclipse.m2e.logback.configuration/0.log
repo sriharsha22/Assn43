@@ -1,0 +1,561 @@
+2017-06-06 15:11:17,064 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.harsha.spring:HelloWorldSpring:0.0.1-SNAPSHOT @ /Users/harsha/Downloads/HelloWorldSpring/pom.xml.
+2017-06-06 15:11:19,000 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorldSpring/src/main/java
+2017-06-06 15:11:19,001 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorldSpring/src/main/resources
+2017-06-06 15:11:19,005 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorldSpring/src/main/resources
+2017-06-06 15:11:19,008 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorldSpring/src/test/java
+2017-06-06 15:11:20,699 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2017-06-06 15:11:21,827 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 15:11:21,839 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-06 15:11:21,864 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 15:11:21,869 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 15:11:21,869 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/harsha/Downloads/HelloWorldSpring/src/test/resources
+2017-06-06 15:41:27,034 [Worker-0] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration HelloWorldSpringApplication references non-existing project HelloWorldSpring.
+org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldSpringApplication references non-existing project HelloWorldSpring.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-06-06 15:41:27,106 [Worker-0] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration HelloWorldSpringApplication references non-existing project HelloWorldSpring.
+org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldSpringApplication references non-existing project HelloWorldSpring.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-06-06 15:41:27,130 [Worker-0] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration HelloWorldSpringApplication references non-existing project HelloWorldSpring.
+org.eclipse.core.runtime.CoreException: Launch configuration HelloWorldSpringApplication references non-existing project HelloWorldSpring.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-06-06 15:52:53,881 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/demo/pom.xml.
+2017-06-06 15:52:56,533 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2017-06-06 15:52:56,536 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-06 15:52:56,547 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-06 15:52:56,560 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2017-06-06 15:52:57,154 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2017-06-06 15:52:57,158 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-06 15:52:57,836 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/demo/pom.xml.
+2017-06-06 15:52:58,424 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2017-06-06 15:52:58,425 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-06 15:52:58,428 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-06 15:52:58,450 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2017-06-06 15:52:58,743 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-06 15:52:59,942 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 15:52:59,959 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-06 15:52:59,977 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 15:52:59,989 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 15:52:59,989 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/harsha/Documents/workspace/springboot_heroku/demo/src/test/resources
+2017-06-06 15:53:02,639 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 15:53:02,642 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 15:53:02,643 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 15:53:02,646 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 15:53:02,647 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/harsha/Documents/workspace/springboot_heroku/demo/src/test/resources
+2017-06-06 17:40:12,714 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:40:12,745 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-06 17:40:12,778 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:40:12,785 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:40:12,785 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/harsha/Documents/workspace/springboot_heroku/demo/src/test/resources
+2017-06-06 17:46:38,777 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:46:39,980 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootInHeroku/src/main/java
+2017-06-06 17:46:39,984 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/main/resources
+2017-06-06 17:46:39,985 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootInHeroku/src/test/java
+2017-06-06 17:46:39,985 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/test/resources
+2017-06-06 17:46:40,752 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:46:40,770 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:46:40,777 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:46:40,778 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:46:44,747 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:46:44,754 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:46:44,756 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:46:44,757 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:46:58,162 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:46:58,173 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:46:58,175 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:46:58,176 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:47:36,119 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:47:36,121 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:47:36,124 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:47:36,127 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:47:58,007 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:47:58,010 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:47:58,013 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:47:58,013 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:47:59,525 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:47:59,527 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:47:59,529 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-06 17:47:59,530 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:49:21,790 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:50:35,194 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:50:36,510 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:50:36,514 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:50:36,515 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:50:36,519 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:50:36,519 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:51:05,939 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:51:06,877 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:51:06,879 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:51:06,880 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:51:06,884 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:51:06,885 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:53:06,644 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:53:22,659 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:54:12,607 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:54:13,679 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:54:13,683 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:54:13,683 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:54:13,686 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:54:13,687 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:55:10,229 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:55:11,322 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:55:11,324 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:55:11,325 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:55:11,329 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:55:11,330 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:55:19,693 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-06-06 17:55:26,582 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 17:55:26,585 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 17:56:03,270 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:03,273 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:03,273 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:03,276 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:03,277 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:19,635 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-06 17:56:20,594 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:56:20,984 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootInHeroku/src/main/java
+2017-06-06 17:56:20,985 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/main/resources
+2017-06-06 17:56:20,987 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/main/resources
+2017-06-06 17:56:20,990 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootInHeroku/src/test/java
+2017-06-06 17:56:20,990 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/test/resources
+2017-06-06 17:56:21,165 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-06 17:56:22,464 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:22,465 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:22,466 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:22,470 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:22,470 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:24,403 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:24,406 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:24,406 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:24,408 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:24,409 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:33,884 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 17:56:33,885 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-06-06 17:56:36,924 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:36,925 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:36,926 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:56:36,931 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:56:36,931 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:57:16,596 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 17:57:16,596 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 17:58:13,426 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:58:14,624 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:58:14,630 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:58:14,631 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:58:14,639 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:58:14,640 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:58:21,984 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 17:58:22,625 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:58:22,627 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:58:22,627 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:58:22,631 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:58:22,631 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:59:07,650 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:59:07,652 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:59:07,653 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 17:59:07,656 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 17:59:07,656 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:00:37,534 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-06-06 18:00:37,635 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:00:37,635 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:03:21,554 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-06-06 18:03:25,954 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:03:25,954 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:24:45,006 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:24:45,938 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:24:45,947 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:24:45,949 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:24:45,968 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:24:45,969 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:24:54,485 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:24:58,750 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:24:58,760 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:24:58,761 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:24:58,769 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:24:58,770 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:25:18,507 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:25:18,508 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:25:18,508 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:25:18,511 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:25:18,511 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:30:08,730 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:30:08,732 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:30:08,732 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:30:08,736 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:30:08,737 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:30:14,103 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:30:14,104 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:30:14,104 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:30:14,106 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:30:14,106 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:01,389 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-06-06 18:31:05,911 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:31:05,913 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:31:31,832 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:31:31,833 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:31,833 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:31,836 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:31:31,836 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:43,077 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-06 18:31:43,837 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:31:44,403 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootInHeroku/src/main/java
+2017-06-06 18:31:44,404 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/main/resources
+2017-06-06 18:31:44,404 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/main/resources
+2017-06-06 18:31:44,405 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootInHeroku/src/test/java
+2017-06-06 18:31:44,405 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootInHeroku/src/test/resources
+2017-06-06 18:31:44,675 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-06 18:31:46,060 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:31:46,072 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:46,072 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:46,088 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:31:46,091 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:58,216 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:31:58,225 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:58,226 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:31:58,230 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:31:58,230 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:32:23,107 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:32:23,108 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:39:26,391 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:39:27,319 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:39:27,331 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:39:27,331 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:39:27,421 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:39:27,434 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:39:37,825 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:39:37,826 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:40:39,190 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.18.1/maven-failsafe-plugin-2.18.1.pom
+2017-06-06 18:40:39,250 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.18.1/maven-failsafe-plugin-2.18.1.pom
+2017-06-06 18:40:39,323 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.18.1/maven-failsafe-plugin-2.18.1.jar
+2017-06-06 18:40:39,480 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.18.1/maven-failsafe-plugin-2.18.1.jar
+2017-06-06 18:40:41,071 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:40:41,990 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:40:41,992 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:40:41,993 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:40:41,995 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:40:41,996 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:40:47,074 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:40:47,075 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:48:35,776 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:48:35,778 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:48:37,860 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:48:39,622 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:48:39,626 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:48:39,626 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:48:39,633 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:48:39,634 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:20,039 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:49:20,042 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:20,042 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:20,045 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:49:20,045 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:27,617 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:49:27,619 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:27,619 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:27,624 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:49:27,625 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:38,237 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:49:38,240 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:38,241 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:49:38,244 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:49:38,245 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:50:43,430 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:50:44,666 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:50:44,670 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:50:44,670 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:50:44,673 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:50:44,674 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:51:06,363 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:51:06,364 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:51:34,502 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:51:35,251 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:51:35,258 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:51:35,259 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:51:35,428 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:51:35,432 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:51:43,386 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:51:43,387 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:53:26,388 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:53:26,985 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.pom
+2017-06-06 18:53:27,113 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.pom
+2017-06-06 18:53:27,202 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar
+2017-06-06 18:53:27,658 [Worker-31] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar
+2017-06-06 18:53:28,443 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:53:28,462 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:53:28,463 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:53:28,471 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:53:28,471 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:53:37,655 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:53:37,658 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:54:46,561 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:54:46,562 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:54:46,563 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:54:46,569 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:54:46,569 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:54:59,144 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:54:59,145 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:56:28,260 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 18:56:29,342 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:56:29,345 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:56:29,345 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:56:29,350 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:56:29,351 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:56:35,606 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:56:35,607 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 18:58:29,715 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:58:29,719 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:58:29,720 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:58:29,722 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 18:58:29,723 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 18:58:42,989 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 18:58:42,989 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 19:00:23,120 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.4.4.RELEASE/spring-boot-starter-parent-1.4.4.RELEASE.pom
+2017-06-06 19:00:23,165 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/1.4.4.RELEASE/spring-boot-starter-parent-1.4.4.RELEASE.pom
+2017-06-06 19:00:23,208 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.4.4.RELEASE/spring-boot-dependencies-1.4.4.RELEASE.pom
+2017-06-06 19:00:23,369 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.4.4.RELEASE/spring-boot-dependencies-1.4.4.RELEASE.pom
+2017-06-06 19:00:23,420 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.6.RELEASE/spring-framework-bom-4.3.6.RELEASE.pom
+2017-06-06 19:00:23,461 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.6.RELEASE/spring-framework-bom-4.3.6.RELEASE.pom
+2017-06-06 19:00:23,501 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Hopper-SR7/spring-data-releasetrain-Hopper-SR7.pom
+2017-06-06 19:00:23,544 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Hopper-SR7/spring-data-releasetrain-Hopper-SR7.pom
+2017-06-06 19:00:23,582 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.8.7.RELEASE/spring-data-build-1.8.7.RELEASE.pom
+2017-06-06 19:00:23,624 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.8.7.RELEASE/spring-data-build-1.8.7.RELEASE.pom
+2017-06-06 19:00:23,661 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.7.RELEASE/spring-integration-bom-4.3.7.RELEASE.pom
+2017-06-06 19:00:23,705 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.7.RELEASE/spring-integration-bom-4.3.7.RELEASE.pom
+2017-06-06 19:00:23,981 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.4.RELEASE/spring-boot-maven-plugin-1.4.4.RELEASE.pom
+2017-06-06 19:00:24,023 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.4.RELEASE/spring-boot-maven-plugin-1.4.4.RELEASE.pom
+2017-06-06 19:00:24,060 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.4.4.RELEASE/spring-boot-tools-1.4.4.RELEASE.pom
+2017-06-06 19:00:24,100 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.4.4.RELEASE/spring-boot-tools-1.4.4.RELEASE.pom
+2017-06-06 19:00:24,141 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.4.4.RELEASE/spring-boot-parent-1.4.4.RELEASE.pom
+2017-06-06 19:00:24,212 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.4.4.RELEASE/spring-boot-parent-1.4.4.RELEASE.pom
+2017-06-06 19:00:24,266 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.4.RELEASE/spring-boot-maven-plugin-1.4.4.RELEASE.jar
+2017-06-06 19:00:24,875 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.4.RELEASE/spring-boot-maven-plugin-1.4.4.RELEASE.jar
+2017-06-06 19:00:25,720 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 19:00:25,758 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.4.4.RELEASE/spring-boot-starter-web-1.4.4.RELEASE.pom
+2017-06-06 19:00:25,797 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.4.4.RELEASE/spring-boot-starter-web-1.4.4.RELEASE.pom
+2017-06-06 19:00:25,835 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/1.4.4.RELEASE/spring-boot-starters-1.4.4.RELEASE.pom
+2017-06-06 19:00:25,871 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/1.4.4.RELEASE/spring-boot-starters-1.4.4.RELEASE.pom
+2017-06-06 19:00:25,914 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.4.RELEASE/spring-boot-starter-1.4.4.RELEASE.pom
+2017-06-06 19:00:25,947 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.4.RELEASE/spring-boot-starter-1.4.4.RELEASE.pom
+2017-06-06 19:00:25,992 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.4.RELEASE/spring-boot-1.4.4.RELEASE.pom
+2017-06-06 19:00:26,026 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.4.RELEASE/spring-boot-1.4.4.RELEASE.pom
+2017-06-06 19:00:26,381 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,422 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,456 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,494 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,529 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,568 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,605 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,639 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,673 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,713 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.pom
+2017-06-06 19:00:26,754 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.4.RELEASE/spring-boot-autoconfigure-1.4.4.RELEASE.pom
+2017-06-06 19:00:26,799 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.4.RELEASE/spring-boot-autoconfigure-1.4.4.RELEASE.pom
+2017-06-06 19:00:26,847 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.4.RELEASE/spring-boot-starter-logging-1.4.4.RELEASE.pom
+2017-06-06 19:00:26,892 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.4.RELEASE/spring-boot-starter-logging-1.4.4.RELEASE.pom
+2017-06-06 19:00:26,942 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.9/logback-classic-1.1.9.pom
+2017-06-06 19:00:26,984 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.9/logback-classic-1.1.9.pom
+2017-06-06 19:00:27,027 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.9/logback-parent-1.1.9.pom
+2017-06-06 19:00:27,064 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.9/logback-parent-1.1.9.pom
+2017-06-06 19:00:27,107 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.9/logback-core-1.1.9.pom
+2017-06-06 19:00:27,156 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.9/logback-core-1.1.9.pom
+2017-06-06 19:00:27,214 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+2017-06-06 19:00:27,248 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+2017-06-06 19:00:27,283 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+2017-06-06 19:00:27,318 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+2017-06-06 19:00:27,363 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.pom
+2017-06-06 19:00:27,395 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.pom
+2017-06-06 19:00:27,429 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.pom
+2017-06-06 19:00:27,462 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.pom
+2017-06-06 19:00:27,499 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.pom
+2017-06-06 19:00:27,538 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.pom
+2017-06-06 19:00:27,577 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.4.4.RELEASE/spring-boot-starter-tomcat-1.4.4.RELEASE.pom
+2017-06-06 19:00:27,612 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.4.4.RELEASE/spring-boot-starter-tomcat-1.4.4.RELEASE.pom
+2017-06-06 19:00:27,653 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.pom
+2017-06-06 19:00:27,687 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.pom
+2017-06-06 19:00:27,723 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.pom
+2017-06-06 19:00:27,759 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.pom
+2017-06-06 19:00:27,794 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.pom
+2017-06-06 19:00:27,832 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.pom
+2017-06-06 19:00:27,917 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.pom
+2017-06-06 19:00:27,953 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.pom
+2017-06-06 19:00:28,038 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.6/jackson-annotations-2.8.6.pom
+2017-06-06 19:00:28,118 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.6/jackson-annotations-2.8.6.pom
+2017-06-06 19:00:28,155 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.pom
+2017-06-06 19:00:28,191 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.pom
+2017-06-06 19:00:28,227 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.pom
+2017-06-06 19:00:28,262 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.pom
+2017-06-06 19:00:28,299 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.pom
+2017-06-06 19:00:28,335 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.pom
+2017-06-06 19:00:28,374 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.4.4.RELEASE/spring-boot-starter-actuator-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,411 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.4.4.RELEASE/spring-boot-starter-actuator-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,461 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.4.4.RELEASE/spring-boot-actuator-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,501 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.4.4.RELEASE/spring-boot-actuator-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,548 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.4.4.RELEASE/spring-boot-starter-test-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,582 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.4.4.RELEASE/spring-boot-starter-test-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,626 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.4.4.RELEASE/spring-boot-test-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,661 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.4.4.RELEASE/spring-boot-test-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,701 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.4.4.RELEASE/spring-boot-test-autoconfigure-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,735 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.4.4.RELEASE/spring-boot-test-autoconfigure-1.4.4.RELEASE.pom
+2017-06-06 19:00:28,812 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.6.RELEASE/spring-test-4.3.6.RELEASE.pom
+2017-06-06 19:00:28,847 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.6.RELEASE/spring-test-4.3.6.RELEASE.pom
+2017-06-06 19:00:29,012 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.4.4.RELEASE/spring-boot-starter-web-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,052 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/1.4.4.RELEASE/spring-boot-starter-web-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,095 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.4.RELEASE/spring-boot-starter-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,130 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.4.RELEASE/spring-boot-starter-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,166 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.4.RELEASE/spring-boot-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,391 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.4.RELEASE/spring-boot-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,436 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.4.RELEASE/spring-boot-autoconfigure-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,650 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.4.RELEASE/spring-boot-autoconfigure-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,682 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.4.RELEASE/spring-boot-starter-logging-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,717 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.4.RELEASE/spring-boot-starter-logging-1.4.4.RELEASE.jar
+2017-06-06 19:00:29,750 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.9/logback-classic-1.1.9.jar
+2017-06-06 19:00:29,836 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.9/logback-classic-1.1.9.jar
+2017-06-06 19:00:29,879 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.9/logback-core-1.1.9.jar
+2017-06-06 19:00:30,011 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.9/logback-core-1.1.9.jar
+2017-06-06 19:00:30,047 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar
+2017-06-06 19:00:30,084 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar
+2017-06-06 19:00:30,119 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.jar
+2017-06-06 19:00:30,154 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.jar
+2017-06-06 19:00:30,185 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.jar
+2017-06-06 19:00:30,251 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.jar
+2017-06-06 19:00:30,282 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.4.4.RELEASE/spring-boot-starter-tomcat-1.4.4.RELEASE.jar
+2017-06-06 19:00:30,320 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.4.4.RELEASE/spring-boot-starter-tomcat-1.4.4.RELEASE.jar
+2017-06-06 19:00:30,359 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar
+2017-06-06 19:00:31,182 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar
+2017-06-06 19:00:31,220 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar
+2017-06-06 19:00:31,285 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar
+2017-06-06 19:00:31,321 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar
+2017-06-06 19:00:31,377 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar
+2017-06-06 19:00:31,420 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.jar
+2017-06-06 19:00:31,616 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.jar
+2017-06-06 19:00:31,653 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.6/jackson-annotations-2.8.6.jar
+2017-06-06 19:00:31,688 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.6/jackson-annotations-2.8.6.jar
+2017-06-06 19:00:31,738 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar
+2017-06-06 19:00:31,800 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar
+2017-06-06 19:00:31,832 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar
+2017-06-06 19:00:31,960 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar
+2017-06-06 19:00:31,997 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,089 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,123 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,255 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,290 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,468 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,507 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,643 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.6.RELEASE/spring-webmvc-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,679 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,751 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.jar
+2017-06-06 19:00:32,789 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.4.4.RELEASE/spring-boot-starter-actuator-1.4.4.RELEASE.jar
+2017-06-06 19:00:32,841 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.4.4.RELEASE/spring-boot-starter-actuator-1.4.4.RELEASE.jar
+2017-06-06 19:00:32,883 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.4.4.RELEASE/spring-boot-actuator-1.4.4.RELEASE.jar
+2017-06-06 19:00:32,970 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.4.4.RELEASE/spring-boot-actuator-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,005 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.4.4.RELEASE/spring-boot-starter-test-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,042 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/1.4.4.RELEASE/spring-boot-starter-test-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,074 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.4.4.RELEASE/spring-boot-test-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,156 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/1.4.4.RELEASE/spring-boot-test-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,190 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.4.4.RELEASE/spring-boot-test-autoconfigure-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,237 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.4.4.RELEASE/spring-boot-test-autoconfigure-1.4.4.RELEASE.jar
+2017-06-06 19:00:33,271 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar
+2017-06-06 19:00:33,309 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar
+2017-06-06 19:00:33,346 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar
+2017-06-06 19:00:33,579 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar
+2017-06-06 19:00:33,622 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.6.RELEASE/spring-test-4.3.6.RELEASE.jar
+2017-06-06 19:00:33,755 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar
+2017-06-06 19:00:33,773 [Worker-39] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.6.RELEASE/spring-test-4.3.6.RELEASE.jar
+2017-06-06 19:00:34,069 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar
+2017-06-06 19:00:34,128 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.6.RELEASE/spring-test-4.3.6.RELEASE.jar
+2017-06-06 19:00:34,216 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.6.RELEASE/spring-test-4.3.6.RELEASE.jar
+2017-06-06 19:00:35,352 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:00:35,357 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:00:35,357 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:00:35,361 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:00:35,361 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:00:36,334 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:00:36,334 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:00:36,335 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:00:36,338 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:00:36,338 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:00:39,247 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 19:00:39,248 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 19:02:11,233 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:02:11,238 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:02:11,238 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:02:11,241 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:02:11,241 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:02:44,019 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:02:44,020 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:02:44,021 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:02:44,024 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:02:44,024 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:02:54,886 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku
+2017-06-06 19:02:54,886 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-06-06 19:14:34,493 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Assignment-44:SpringBootInHeroku:0.0.1-SNAPSHOT @ /Users/harsha/Documents/workspace/springboot_heroku/SpringBootInHeroku/pom.xml.
+2017-06-06 19:14:35,321 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:14:35,325 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:14:35,325 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-06 19:14:35,328 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-06 19:14:35,329 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
